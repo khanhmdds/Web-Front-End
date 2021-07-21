@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Bai 3</title>
+</head>
+<body>
+	<script language="javascript">
+
+		do{
+			var n = parseInt(prompt('Nhập vào số nguyên dương n: '));
+		}while(n<1);
+		
+		
+		var tong = 0;
+		var giaiThua =1 ;
+
+		for (var i = 1;i<=n; i++) {
+			giaiThua = giaiThua * i;
+			tong = tong + i/(giaiThua);
+		}
+
+		document.write("Tong = ",tong);
+
+
+
+		
+	</script>
+</body>
+</html>
